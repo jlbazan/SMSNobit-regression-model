@@ -1,1 +1,1 @@
-The generated figures are saved here
+The generated figures are saved in this folder.

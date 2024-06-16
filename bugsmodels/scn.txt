@@ -1,0 +1,45 @@
+model{
+	for (i in 1:n) {
+    eta[i]<- alpha.star+beta*(x[i]-mean(x[]))
+    muss[i]<- eta[i]-mu-sigma*delta*v[i]
+	tauss[i]<-precss*u[i]
+    ss[i]~ dnorm(muss[i],tauss[i])I(lo[y[i]+1],up[y[i]+1])
+    us[i] ~ dbern(nu)
+    u[i]<-gamma*us[i]+1-us[i]
+   v[i] ~ dnorm(0,u[i])I(0,)
+    res[i]<-ss[i]-muss[i]    
+    res2[i]<-pow(res[i],2)
+        }
+
+mu<--sqrt(2)*k1*delta/d
+sigma2<-pi/(pow(d,2))
+precss<-1/(sigma2*(1-pow(delta,2)))
+d<-sqrt(pi*k2-2*pow(k1*delta,2))
+sigma<-sqrt(sigma2)
+
+k1<-nu/sqrt(gamma)+1-nu
+k2<-nu/gamma+1-nu
+
+    alpha.star~dnorm(0,0.001)
+    beta~dnorm(0,0.001)
+    alpha<-alpha.star-beta*mean(x[])
+
+   delta~dunif(-1,1)
+
+#nu~dunif(0,1)
+#gamma~dbeta(2,2)
+nu~dunif(0,1)
+gamma~dunif(0,1)
+#etanu~dnorm(0,0.01)
+#nu<-1/(1+exp(-etanu))
+#etagamma~dnorm(0,0.01)
+#gamma<-1/(1+exp(-etagamma))
+
+pi<-3.1415
+
+     lo[1]<- -10; lo[2]<- 0; 
+    up[1]<-  0;  up[2]<-10; 
+ sse<-sum(res2[])
+ }	
+
+

@@ -1,4 +1,4 @@
-# A New Class of Binary Regression Models for Unbalanced Data with Applications in Medical Data
+# Model in Winbugs: a New Class of Binary Regression Models for Unbalanced Data with Applications in Medical Data
 
 **Jorge L. Bazán<sup>1</sup>, V. H. Lachos<sup>2</sup>, and Alex de la Cruz Huayanay<sup>3</sup>**
 

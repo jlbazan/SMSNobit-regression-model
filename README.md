@@ -40,6 +40,20 @@ The following instructions describe how to execute the codes in R and WinBUGS:
 3. Note that for default are consided the following MCMC values: niter=3000, nburnin=1000, nthin=2.
 If want to reproduce results on Section 4.1 modify to MCMC values on the paper.
 
+
+## License
+
+This repository is licensed under a custom **Personal Use License (2025)**.  
+© 2025 Jorge L. Bazán, Victor H. Lachos, and Alex de la Cruz Huayanay.  
+
+- Personal use only  
+- Redistribution and commercial use are prohibited  
+- No modification of the code is allowed  
+- Citation required if used in publications  
+
+See the [LICENSE](./LICENSE) file for full terms.
+
+
 # How to cite this repository
 
 To cite this repository, please use the following reference:

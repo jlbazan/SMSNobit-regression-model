@@ -39,3 +39,20 @@ The following instructions describe how to execute the codes in R and WinBUGS:
 1. Open the file Application41.R and run the script in R.
 3. Note that for default are consided the following MCMC values: niter=3000, nburnin=1000, nthin=2.
 If want to reproduce results on Section 4.1 modify to MCMC values on the paper.
+
+# How to cite this repository
+
+To cite this repository, please use the following reference:
+
+Jorge L. Bazán, V. H. Lachos, and Alex de la Cruz Huayanay (2025). Model in Winbugs: a New Class of Binary Regression Models for Unbalanced Data with Applications in Medical Data. Version v1.0. URL: https://github.com/jlbazan/SMSNobit-regression-model.
+
+If you prefer to include it as a BibTeX entry:
+
+@misc{bazan2025wbcode, <br>
+author = {Jorge L. Bazán and V. H. Lachos and Alex de la Cruz Huayanay },  <br>
+title = {Model in Winbugs: a New Class of Binary Regression Models for Unbalanced Data with Applications in Medical Data},  <br>
+year = {2025},  <br>
+version = {v1.0},
+url = {https://github.com/jlbazan/SMSNobit-regression-model}, <br>
+note = {Github} <br>
+} <br>

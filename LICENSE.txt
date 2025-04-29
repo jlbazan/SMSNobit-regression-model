@@ -1,0 +1,21 @@
+Personal Use License
+
+Copyright (c) 2025 Jorge L. Bazán, Victor H. Lachos, and Alex de la Cruz Huayanay
+
+Permission is hereby granted to any person obtaining a copy of this repository and its associated files (the “Software”), to use it for personal, non-commercial, and academic purposes only, including personal study and research.
+
+The following conditions apply:
+
+1. **No Distribution or Commercial Use**  
+   You may not reproduce, redistribute, sublicense, sell, or commercially exploit any part of the Software.
+
+2. **No Modification**  
+   You may not modify, adapt, translate, or create derivative works based on the Software.
+
+3. **Attribution Required in Publications**  
+   If the Software or any part of it is used in any academic, research, or public publication, proper citation of the original source (this repository and the authors) is required.
+
+4. **No Warranty**  
+   The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors be liable for any claim, damages or other liability arising from the use of the Software.
+
+All rights not expressly granted are reserved by the authors.

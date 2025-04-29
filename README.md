@@ -51,7 +51,7 @@ This repository is licensed under a custom **Personal Use License (2025)**.
 - No modification of the code is allowed  
 - Citation required if used in publications  
 
-See the [LICENSE](./LICENSE) file for full terms.
+See the [LICENSE](./LICENSE.txt) file for full terms.
 
 
 # How to cite this repository
